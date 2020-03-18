@@ -1,3 +1,4 @@
+import './index.less';
 class Animal {
     constructor(name) {
         this.name = name;
@@ -7,3 +8,4 @@ class Animal {
     }
 }
 const dog = new Animal("dog");
+console.log('aaa')
